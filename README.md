@@ -2,7 +2,9 @@
 
 #### *Quick Start*: Download `DisplaySnap.exe` from the [Releases](../../releases) page
 
-A Windows monitor configuration management tool. Quickly switch between saved monitor profiles from the system tray.
+A Windows monitor configuration management tool.
+
+Quickly switch between saved monitor profiles from the system tray.
 
 ![Screenshot](./screenshot.png)
 
