@@ -4,7 +4,7 @@
 
 A Windows monitor configuration management tool. Quickly switch between saved monitor profiles from the system tray.
 
-This project was developed using Vibe Coding style.
+![Screenshot](./screenshot.png)
 
 ## Features
 
@@ -13,6 +13,8 @@ This project was developed using Vibe Coding style.
 - **Auto-detect**: Automatically re-enable disabled monitors when applying profiles
 - **System Tray**: Quick profile switching from tray icon
 - **Export/Import**: Backup and share profiles as JSON files
+
+*This project was developed using Vibe Coding style.*
 
 ## Installation
 
@@ -66,30 +68,6 @@ Output: `dist/MultiMonitorConfig.exe`
 - customtkinter (UI)
 - pystray (System tray)
 - Windows API (EnumDisplayDevices, ChangeDisplaySettingsEx, SetDisplayConfig)
-
-## Screenshot
-
-```
-┌─────────────────────────────────────┐
-│ Current Monitors                    │
-│   [✓] \\.\DISPLAY1: 2560x1440 @ 59Hz│
-│   [✓] \\.\DISPLAY2: 1920x1080 @ 60Hz│
-├─────────────────────────────────────┤
-│ Saved Profiles                      │
-│   ┌─────────────────────────────┐   │
-│   │ Dual Setup                  │   │
-│   │ Single Monitor              │   │
-│   │ Portable                    │   │
-│   └─────────────────────────────┘   │
-├─────────────────────────────────────┤
-│ Profile Detail                      │
-│   [enabled] \\.\DISPLAY1: 2560x1440 │
-├─────────────────────────────────────┤
-│ [✓] Disable monitors not in profile │
-├─────────────────────────────────────┤
-│ [Save][Apply][Rename][Delete] ↑↓ ↻  │
-└─────────────────────────────────────┘
-```
 
 ## License
 
